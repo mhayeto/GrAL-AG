@@ -17,5 +17,4 @@ function [x,y,t]=anal_brac(y0,yf)
     x=R*(theta-sin(theta));
     y=y0-R*(1-cos(theta));
     t=theta2*sqrt(R/g);
-    disp(theta2);
 end
